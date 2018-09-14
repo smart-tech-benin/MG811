@@ -9,6 +9,27 @@ for simple usage of these modules.
 Checkout the `docs` directory to found intterresting documents about this sensor 
 and the way it operate.
 
+## Electricial requirement
+
+While it is useful to checkout the documents on the sensor, it is important to 
+accentuated that the sensor require `140mA ± 20mA` for is heater. So, when using 
+this sensor with multiple others on the Arduino board, make sure to have enought 
+current or it.
+
+|Characteristics | Value|
+|:---------------:|:--------:|
+|Model | MG811 |
+|Sensor type | Solid Electrolyte |
+|Target gas | CO2 |
+|Detection range | 350ppm - 10000ppm |
+|Heater resistance | 35Ω ± 3Ω |
+|Heater current | 140 ± 20mA |
+|Heater voltage | 6.0V ± 0.1V AC or DC |
+|Heater consumption | 850mW ± 120mW |
+|Standard working condition | 20 ~ 50°C, under 95%RH |
+|Zero point EMF | 200mV - 600mV |
+|DEMF output signal | ≧ 25mV/1000ppm CO2 |
+
 ## Usage
 
 This library is quite straightforward. 
